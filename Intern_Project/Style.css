@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f2f4f4;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.small{
+    color: rgb(38, 157, 9);
+    justify-content: center;
+    margin: auto;
+    width:40%;
+    margin-bottom: 10px;
+}
+.info{
+    font-weight: bold;
+    color: black;
+    margin-left: 6px;
+}
+
+.table{
+    color:black;
+    font:bold;
+}
+.card{
+    margin: auto;
+    /* justify-content: center; */
+    text-align: center;
+}
+.input-responsive{
+    width: 95%;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 6px;
+}
+#fname,#lname{
+    width:43%;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin:0 4px 0 6px;
+}
+fieldset{
+    border: 2px solid black;
+    border-radius:5px;
+    margin:0 auto;
+    width: 40%;
+    height:50%;
+}
+.moto{
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+    
+
+legend{
+    margin-left: 25px;
+    font:bold;
+}
+.btn-1{
+    border:2px solid black;
+    border-radius: 25px;
+    width:200px;
+    height:45px;
+    font-weight: 100;
+    background-color:green;
+
+}
+.btn-1:hover{
+background-color: red;
+}
+
+.bottom h2,p{
+text-align:center;
+color:black;
+
+}
+.bottom img{
+    width:32%;
+}
+
+
+.bottom1 h2,p{
+    text-align:center;
+    color:black;
+    
+    }
+ .bottom1 img{
+ width:25%;  
+  }
+  .bottom2 h2,p{
+   text-align:center;
+  color:black;
+      
+   }
+   
+   .bottom2 img{
+  width:30%;
+     }
+.bottom,.bottom1,.bottom2{
+
+display: inline-block;
+margin: 1em 2em;
+width: 25%;
+text-align: center;
+
+}
+.form-bottom{
+    margin: auto;
+    width: 100%;
+}
+
+/* Transaction CSS */
+.popup{
+    background:  #f2f4f4;
+    width:400px;
+    text-align:center;
+    position:absolute;
+    top:17%;
+    left:38%;
+}
+.popup img{
+    width:180px;
+    height:178px;
+    margin:2em;
+}
+.popup p{
+    margin:1em;
+    font-size:20px ;
+}
+.btn{
+    border:2px solid black;
+    border-radius: 25px;
+    width:200px;
+    height:45px;
+    font-weight: 100;
+    background-color:green;
+
+}
+.btn:hover{
+background-color: red;
+}
+/* Failed Trasaction css */
+.popup1{
+    background:  #f2f4f4;
+    width:400px;
+    text-align:center;
+    position:absolute;
+    top:15%;
+    left:35%;
+}
+.popup1 img{
+    width:200px;
+    height:190px;
+    margin:2em;
+}
+.popup1 p{
+    margin:1em;
+    font-size:20px ;
+}  
+/* contact css */
+.line{
+    height:55vh;
+    border:2px solid #ff8000;
+    background-color:#ff8000 ;
+    bottom: 2em;
+    /* margin: auto; */
+    width: 100%;
+    display: flex;
+   
+
+}
+
+
+.line h2{
+    margin: 100px;
+    padding:3px;
+     text-align: center; *
+    justify-content: center;
+    color:white;
+    
+}
+.line p{
+    text-align:center;
+    color:white;
+    margin:-100px;
+}
+/* .box{
+    margin: 30px;
+    padding: 25px;
+    text-align: center;
+} */
+.box{
+    text-align: center;
+}
+.box1 h2,p{
+    text-align:center;
+    color:black;
+    
+    }
+    .box1 img{
+        width:30%;
+    }
+    
+    
+    .box2 h2,p{
+        text-align:center;
+        color:black;
+        
+        }
+        .box2 img{
+            width:50%;  
+    
+        }
+       
+        .box3 h2,p{
+            text-align:center;
+            color:black;
+            
+            }
+            .box3 img{
+                width:18%;
+            }
+    .box1,.box2,.box3{
+    display: inline-block;
+    margin: 1em 1em;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    bottom: 3em;
+    box-shadow: 1em 0em 5em -2em black;
+    background-color: #f2f4f4;
+    position: relative;
+    border-radius: 16px;
+    
+    }
+    body{
+        width:100%;
+    }
+    .contact{
+        overflow:hidden;
+    }
+    .background{
+ background: url("/bg1.jpg");
+ margin:auto;
+ width:100%;
+ height:100%;
+ backdrop-filter: blur(5px);
+ color: white;
+ background-repeat: no-repeat;
+
+    }

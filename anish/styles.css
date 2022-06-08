@@ -1,0 +1,386 @@
+                                                        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+                                                        body {
+                                                            /* background: url("4740652.jpg"); */
+                                                            background-color: greenyellow;
+                                                            font-family: 'Nunito Sans', sans-serif;
+                                                        }
+                                                        
+                                                        * {
+                                                            margin: 0;
+                                                            padding: 0;
+                                                        }
+                                                        
+                                                        .container,
+                                                        .login {
+                                                            margin: auto;
+                                                        }
+                                                        
+                                                        .login-tittle {
+                                                            font-weight: bolder;
+                                                            color: whitesmoke;
+                                                        }
+                                                        
+                                                        .container {
+                                                            width: 30%;
+                                                            /* background-color: #f6e58d; */
+                                                            height: 75vh;
+                                                            margin-top: 6em;
+                                                            padding: 2em 0;
+                                                            border-radius: 50px;
+                                                            margin-bottom: 6em;
+                                                            text-align: center;
+                                                            backdrop-filter: blur(7px);
+                                                            /* border: 5px solid black; */
+                                                        }
+                                                        
+                                                        .email1,
+                                                        .password1,
+                                                        .email,
+                                                        .password,
+                                                        .password-confirm,
+                                                        .fn,
+                                                        .ln {
+                                                            display: block;
+                                                            margin: 1em;
+                                                            width: 80%;
+                                                            height: 25px;
+                                                            padding: 0.50em;
+                                                            font-weight: 700;
+                                                            background-color: rgba(255, 255, 255, 0.5);
+                                                            border: 1px solid rgba(192, 192, 192, 200);
+                                                            border-radius: 5px;
+                                                        }
+                                                        
+                                                        .login {
+                                                            width: 80%;
+                                                            text-align: left;
+                                                        }
+                                                        
+                                                        .details {
+                                                            margin: 2em 0;
+                                                            font-weight: bold;
+                                                            color: whitesmoke;
+                                                        }
+                                                        
+                                                        .email,
+                                                        .password {
+                                                            text-align: left;
+                                                            font-weight: bold;
+                                                            color: black;
+                                                        }
+                                                        
+                                                        .btn,
+                                                        .btn1 {
+                                                            display: block;
+                                                            width: 83%;
+                                                            margin: 1em;
+                                                            padding: 0.7em;
+                                                            font-weight: bold;
+                                                            border-radius: 5px;
+                                                            border: none;
+                                                            background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+                                                            color: white;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .btn {
+                                                            background-color: #ffbe76;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .signup-redirect {
+                                                            /* text-decoration: none; */
+                                                            color: white;
+                                                            font-weight: bold;
+                                                        }
+                                                        
+                                                        .container1 {
+                                                            width: auto;
+                                                            margin-top: 0;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            height: 97vh;
+                                                            background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+                                                            padding-top: 2em;
+                                                        }
+                                                        
+                                                        .container2,
+                                                        .container3 {
+                                                            width: 30%;
+                                                        }
+                                                        
+                                                        .container3 {
+                                                            background-color: white;
+                                                            padding: 5em;
+                                                            border-top-right-radius: 20px;
+                                                            border-bottom-right-radius: 20px;
+                                                            height: 74vh;
+                                                            margin-bottom: 5em;
+                                                        }
+                                                        
+                                                        .container2 {
+                                                            /* border: 2px solid black; */
+                                                            border-radius: 20px;
+                                                            position: relative;
+                                                            left: 1em;
+                                                            background-color: red;
+                                                            height: 85vh;
+                                                            padding: 2.15em;
+                                                            background: url("4740652.jpg");
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            background-position: center;
+                                                        }
+                                                        
+                                                        .container4 {
+                                                            margin: 4em;
+                                                            height: 70vh;
+                                                            background-position: center;
+                                                            background-color: rgba(255, 0255, 255, 0);
+                                                            backdrop-filter: blur(5px);
+                                                            color: white;
+                                                            /* border: 3px solid blue; */
+                                                            border-radius: 15px;
+                                                            padding: 0.25em;
+                                                        }
+                                                        
+                                                        .topic {
+                                                            font-size: 2rem;
+                                                            position: relative;
+                                                            bottom: 1em;
+                                                            left: 0.8em;
+                                                            font-weight: 1000;
+                                                        }
+                                                        
+                                                        .f1n,
+                                                        .l1n,
+                                                        .email-label,
+                                                        .password-label,
+                                                        .pwc,
+                                                        .chb {
+                                                            font-size: small;
+                                                            font-weight: bold;
+                                                        }
+                                                        
+                                                        .lef {
+                                                            /* border: 2px solid red; */
+                                                            font-weight: bolder;
+                                                            font-size: 2rem;
+                                                            width: 40%;
+                                                            background-color: rgba(255, 255, 255, 0.5);
+                                                            padding: 0.5em;
+                                                            backdrop-filter: blur(5px);
+                                                            border-radius: 5px;
+                                                        }
+                                                        
+                                                        .esse,
+                                                        .lekh,
+                                                        .foot {
+                                                            font-weight: bold;
+                                                        }
+                                                        
+                                                        .line {
+                                                            width: 25%;
+                                                            margin-top: 2em;
+                                                            margin-bottom: 2em;
+                                                        }
+                                                        
+                                                        .loog,
+                                                        .foot {
+                                                            margin-top: 12em;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .loog {
+                                                            text-decoration: none;
+                                                            color: white;
+                                                            font-weight: bolder;
+                                                            font-size: 1.5rem;
+                                                        }
+                                                        
+                                                        .btn1:hover {
+                                                            background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .btn:hover {
+                                                            background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .eye,
+                                                        .eye1 {
+                                                            position: relative;
+                                                            left: 20rem;
+                                                            bottom: 2.8rem;
+                                                            display: none;
+                                                            font-size: 0.8rem;
+                                                        }
+                                                        
+                                                        .eye1 {
+                                                            position: relative;
+                                                            left: 19rem;
+                                                            bottom: 2.8rem;
+                                                            display: none;
+                                                            font-size: 0.8rem;
+                                                        }
+                                                        
+                                                        .em,
+                                                        .pass {
+                                                            font-size: 1em;
+                                                            font-weight: bold;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .donn {
+                                                            font-weight: bold;
+                                                            color: whitesmoke;
+                                                        }
+                                                        
+                                                        .trouble {
+                                                            text-decoration: none;
+                                                            position: relative;
+                                                            right: 2.5em;
+                                                            font-weight: bolder;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .cont1,
+                                                        .cont2,
+                                                        .cont3 {
+                                                            /* border: 2px solid red; */
+                                                            margin-top: 4em;
+                                                            padding: 2em;
+                                                        }
+                                                        
+                                                        .cont1 {
+                                                            height: 66vh;
+                                                            width: 43%;
+                                                            position: relative;
+                                                            left: 15em;
+                                                            border-radius: 10px;
+                                                            backdrop-filter: blur(5px);
+                                                        }
+                                                        
+                                                        .cont {
+                                                            display: flex;
+                                                            gap: 15em;
+                                                            justify-content: space-evenly;
+                                                            width: 99.4%;
+                                                            /* margin: auto; */
+                                                            border: 5px solid black;
+                                                            height: 98.7vh;
+                                                            /* background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%); */
+                                                        }
+                                                        /* .cont23 { */
+                                                        /* margin-right: 1em;
+                                                                height: 80vh; */
+                                                        /* } */
+                                                        
+                                                        .cont2,
+                                                        .cont3 {
+                                                            height: 25vh;
+                                                            width: 80%;
+                                                            margin-right: 4em;
+                                                            position: relative;
+                                                            left: 4em;
+                                                            border-radius: 10px;
+                                                            backdrop-filter: blur(5px);
+                                                            color: whitesmoke;
+                                                        }
+                                                        
+                                                        .contact,
+                                                        .now,
+                                                        .do {
+                                                            text-align: center;
+                                                            color: white;
+                                                            font-weight: bolder;
+                                                            background-color: rgba(255, 255, 255, 0.5);
+                                                            /* border: 2px solid white; */
+                                                            backdrop-filter: blur(5px);
+                                                            border-radius: 5px;
+                                                            height: 150px;
+                                                            position: absolute;
+                                                            top: 0;
+                                                            left: 0%;
+                                                            font-size: 3rem;
+                                                            width: 60%;
+                                                            padding: 0.01em;
+                                                        }
+                                                        
+                                                        .cont22,
+                                                        .cont33 {
+                                                            color: whitesmoke;
+                                                            padding: 0.5em;
+                                                            font-size: 1.3em;
+                                                        }
+                                                        
+                                                        .linee,
+                                                        .linee1 {
+                                                            position: relative;
+                                                            top: 30%;
+                                                            /* left: 19%; */
+                                                        }
+                                                        
+                                                        .now {
+                                                            /* position: relative; */
+                                                            top: 40%;
+                                                            left: 18%;
+                                                            text-decoration: none;
+                                                            color: white;
+                                                            font-size: 3rem;
+                                                            background-color: rgba(255, 255, 255, 0.5);
+                                                            /* border: 2px solid red; */
+                                                            backdrop-filter: blur(5px);
+                                                            border-radius: 5px;
+                                                            width: 90%;
+                                                            padding-top: 0.01em;
+                                                            margin-left: 0.6em;
+                                                        }
+                                                        
+                                                        .do {
+                                                            /* position: relative; */
+                                                            /* top: 81%; */
+                                                            /* right: 200%; */
+                                                            width: 90%;
+                                                            /* border: 3px solid red; */
+                                                            text-decoration: none;
+                                                            margin-top: 12.3em;
+                                                            font-size: 2.5rem;
+                                                            padding-top: 0.01em;
+                                                            text-align: center;
+                                                            height: 120px;
+                                                        }
+                                                        
+                                                        .now:hover,
+                                                        .do:hover {
+                                                            background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+                                                        }
+                                                        
+                                                        .linee1 {
+                                                            position: relative;
+                                                            top: 75%;
+                                                            left: -16.5%;
+                                                        }
+                                                        
+                                                        .contact1 {
+                                                            font-size: 2.5em;
+                                                        }
+                                                        
+                                                        .linee {
+                                                            left: 16%;
+                                                        }
+                                                        
+                                                        .validate-pw {
+                                                            font-size: .8rem;
+                                                            font-weight: 600;
+                                                            margin-bottom: 1em;
+                                                        }
+                                                        
+                                                        .validate-pw-green {
+                                                            color: green;
+                                                        }
+                                                        
+                                                        .validate-pw-red {
+                                                            color: red;
+                                                        }

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.personal-details {
+    width: 60%;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    padding: 2em;
+}
+
+.product {
+    width: 25%;
+    padding: 2em;
+    background-color: #fafafa;
+    height: 400px;
+}
+
+.details {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 2em;
+    padding: 2em;
+}
+
+label {
+    display: block;
+}
+
+sup {
+    color: red;
+}
+
+.names,
+.city-country {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 2em;
+}
+
+.city-country {
+    margin-left: 1.7em;
+}
+
+.fname,
+.lname,
+.address,
+.city,
+.postalCode,
+.qty {
+    width: 70%;
+    height: 20px;
+    margin-top: .2em;
+    padding: .2em;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-control {
+    width: 40%;
+}
+
+.addr {
+    margin: 2em 2em 0 2.5em;
+}
+
+.post {
+    margin: 2.3em;
+}
+
+.postalCode {
+    width: 30%;
+}
+
+.address-type {
+    display: flex;
+    gap: 2em;
+    margin-top: .3em;
+    margin-left: 2em;
+}
+
+.buttons {
+    margin-top: 3em;
+}
+
+.order-btn,
+.cancel-btn {
+    font-size: 1rem;
+    padding: .5em 1em;
+    margin: 0 1em;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.order-btn {
+    background-color: #168c46;
+}
+
+.cancel-btn {
+    background-color: black;
+}
+
+.ad {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.product-detail {
+    padding: 1em;
+    background-color: white;
+    width: 90%;
+    display: flex;
+}
+
+.ordered-product {
+    width: 30%;
+    border-radius: 20px;
+}
+
+.order-price {
+    margin-top: 1em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 2em;
+}
+
+.ordered-product-title {
+    margin-left: 2em;
+    font-size: 1.2rem;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.quantity {
+    margin-left: 2.2em;
+}
+
+.qty {
+    width: 30%;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid mediumseagreen;
+}
